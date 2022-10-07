@@ -116,14 +116,25 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }
+}
+
+.image {
+  position: relative;
+  width: 320px;
+  margin: auto;
+  border: 5px teal solid;
+  border-radius: 10px;
 }
