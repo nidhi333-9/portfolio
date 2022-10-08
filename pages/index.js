@@ -37,16 +37,16 @@ export default function Home() {
           <div className='sm:flex mt-8 md:mt-16'>
             <div className='text-center  sm:text-left'>
               <div className='py-10 '>
-                <h2 className='text-3xl md:text-5xl py-2 text-gray-800 dark:text-gray-300 font-medium'>Hey 👋, I'm</h2>
+                <h2 className='text-3xl md:text-5xl py-2 text-gray-800 dark:text-gray-300 font-medium'>Hey 👋, I am</h2>
                 <h2 className='text-4xl md:text-6xl py-2 text-teal-600 font-medium'>Nidhi Kumari</h2>
                 <h3 className='text-2xl py-2 font-semibold dark:text-gray-100'>Developer & Designer</h3>
-                <p className='font-medium py-3 leading-8 text-gray-800 dark:text-gray-300'>Freelancer providing services for programming and development needs. Join me down below and let's get cracking!</p>
+                <p className='font-medium py-3 leading-8 text-gray-800 dark:text-gray-300'>Freelancer providing services for programming and development needs. Join me down below and let&aposs get cracking!</p>
               </div>
               <div className='flex text-5xl justify-center sm:justify-start gap-14 py-1 text-gray-600 cursor-pointer  dark:text-gray-100'>
-                <a className='hover:text-teal-600' href='https://twitter.com/techy_nidhi' target="_blank">
+                <a className='hover:text-teal-600' href='https://twitter.com/techy_nidhi' target="_blank" rel="noreferrer">
                   <AiFillTwitterCircle />
                 </a>
-                <a className='hover:text-teal-600' href="https://www.linkedin.com/in/nidhi-kumari-1b1628213/" target="_blank">
+                <a className='hover:text-teal-600' href="https://www.linkedin.com/in/nidhi-kumari-1b1628213/" target="_blank" rel="noreferrer">
                   <AiFillLinkedin />
                 </a>
 

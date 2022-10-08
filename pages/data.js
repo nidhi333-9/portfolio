@@ -1,7 +1,7 @@
 import travel from "../public/travel.png"
 import meme from "../public/meme.png"
 
-export default [
+const data = [
     {
         id: 1,
         title: "My Travel Journal",
@@ -17,3 +17,5 @@ export default [
         gitLink: "https://github.com/nidhi333-9/Meme-Generator"
     },
 ]
+
+export default data;
