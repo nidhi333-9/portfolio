@@ -50,7 +50,7 @@ export default function Home() {
                   <AiFillLinkedin />
                 </a>
 
-                <a className='hover:text-teal-600' href="https://github.com/nidhi333-9" target="_blank">
+                <a className='hover:text-teal-600' href="https://github.com/nidhi333-9" target="_blank" rel="noreferrer">
                   <AiFillGithub />
                 </a>
 
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
 
             <div className='relative mx-auto sm:w-72 mt-10' >
-              <Image className='image-nidhi rounded-lg hover:animate-[wiggle_1s_ease-in-out_infinite]' src={tnidhi} />
+              <Image className='image-nidhi rounded-lg hover:animate-[wiggle_1s_ease-in-out_infinite]' src={tnidhi} alt="nidhi" />
             </div>
           </div>
         </section>
@@ -77,7 +77,7 @@ export default function Home() {
           <div className='mt-10'>
             <h3 className='text-3xl py-1 font-semibold dark:text-gray-100'>About Me</h3>
             <p className='font-medium py-3 leading-8 text-gray-800 dark:text-gray-300'>
-              I'm a self-learning student, who enjoys doing multiple things like web development, graphic designing, reading books and sketching.
+              I am a self-learning student, who enjoys doing multiple things like web development, graphic designing, reading books and sketching.
               Let me know if I can help you anyway!!!
             </p>
           </div>
