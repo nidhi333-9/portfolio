@@ -1,14 +1,19 @@
-export const projectsObj = [
+import travel from "../public/travel.png"
+import meme from "../public/meme.png"
+
+export default [
     {
         id: 1,
         title: "My Travel Journal",
-        preview: "My Travel Journal Preview",
-        link: "https://n-fernweh.netlify.app"
+        preview: travel,
+        link: "https://n-fernweh.netlify.app",
+        gitLink: "https://github.com/nidhi333-9/fernweh"
     },
     {
         id: 2,
         title: "Meme Generator",
-        preview: "Meme Generator Preview",
-        link: "https://nmemegenerator.netlify.app"
+        preview: meme,
+        link: "https://nmemegenerator.netlify.app",
+        gitLink: "https://github.com/nidhi333-9/Meme-Generator"
     },
 ]
